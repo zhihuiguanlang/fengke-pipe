@@ -1,0 +1,11 @@
+body {
+  .v-window__container,
+  .v-window-item {
+    height: 100% !important;
+  }
+}
+body {
+  .v-slide-group__content {
+    justify-content: flex-end;
+  }
+}

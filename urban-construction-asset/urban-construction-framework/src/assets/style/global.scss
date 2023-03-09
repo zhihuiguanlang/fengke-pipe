@@ -1,0 +1,23 @@
+body .el-table th.gutter {
+  display: table-cell !important;
+}
+body ._threshold {
+  width: 100px !important;
+}
+body {
+  .fixation {
+    .v-input--checkbox {
+      margin: 0px !important;
+      height: 30px !important;
+      padding: 0px !important;
+      margin-top: -15px !important;
+    }
+  }
+}
+body {
+  .fixation {
+    .el-table__indent {
+      padding-left: 5px !important;
+    }
+  }
+}

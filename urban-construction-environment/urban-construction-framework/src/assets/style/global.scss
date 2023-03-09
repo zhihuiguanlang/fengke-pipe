@@ -1,0 +1,32 @@
+body {
+  .popup .theme--light.v-messages,
+  .history .v-text-field__details,
+  .realtime .theme--light.v-messages {
+    display: none !important;
+  }
+  .popup,
+  .history,
+  .realtime {
+    .v-input__slot {
+      margin-bottom: 0px !important;
+    }
+  }
+  .v-menu__content {
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 5px;
+      background-color: #ffffff;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background-color: #ffffff;
+    }
+    &::-webkit-scrollbar-corner,
+    &::-webkit-scrollbar-button,
+    &::-webkit-scrollbar-track-piece {
+      display: none;
+    }
+  }
+}

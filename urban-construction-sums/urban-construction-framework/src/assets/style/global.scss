@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+}
+
+body .v-window__container {
+  flex: 1;
+  display: flex;
+}
+
+body .plan .v-list {
+  background-color: transparent;
+}
+
+body .plan .v-textarea {
+  margin: 0px;
+  padding: 0px;
+}
+
+body .plan .v-input__slot {
+  margin: 0px;
+}
+
+body .plan .v-text-field__details {
+  display: none;
+}
+
+body .v-menu__content {
+  min-width: 0px !important;
+}
+
+body .v-data-table--fixed-header .v-data-table__wrapper,
+.plan .room .visit,
+.plan .branch,
+body {
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #0d2643;
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #020f22;
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-corner,
+  &::-webkit-scrollbar-button,
+  &::-webkit-scrollbar-track-piece {
+    display: none;
+  }
+}
+body .v-input__append-outer{
+  margin: 0 !important;
+}
